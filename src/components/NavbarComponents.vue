@@ -16,7 +16,9 @@
           <ul class="font-bold cursor-pointer">
             <li class="hover:text-link-active">Home</li>
             <li class="hover:text-link-active">Menu</li>
-            <li class="hover:text-link-active">About</li>
+            <li class="hover:text-link-active">
+              <router-link to="/about">About</router-link>
+            </li>
             <li class="hover:text-link-active">
               <router-link to="/" class="text-base flex items-center">
                 Cart

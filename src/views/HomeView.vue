@@ -4,16 +4,18 @@
     <div class="container">
       <HomeComponents />
     </div>
+    <FooterComponents />
   </div>
 </template>
 
 <script>
+import FooterComponents from "@/components/FooterComponents.vue"
 import HomeComponents from "@/components/HomeComponents.vue"
 import NavbarComponents from "@/components/NavbarComponents.vue"
 
 export default {
   name: "HomeView",
-  components: { NavbarComponents, HomeComponents },
+  components: { NavbarComponents, HomeComponents, FooterComponents },
 }
 </script>
 
