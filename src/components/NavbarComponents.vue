@@ -1,8 +1,8 @@
 <template>
   <div id="navbar-components">
     <div class="container">
-      <div class="navbar shadow-xl">
-        <div class="flex text-center items-center justify-center pl-16">
+      <div class="navbar shadow-md">
+        <div class="flex text-center items-center justify-center pl-20">
           <img
             src="../assets/logo-starbucks.png"
             class="h-auto w-12 mr-10 cursor-pointer" />
@@ -12,7 +12,7 @@
           >
         </div>
 
-        <nav class="text-base text-right flex-1 mr-20">
+        <nav class="text-base text-right flex-1 pr-20">
           <ul class="font-bold cursor-pointer">
             <li class="hover:text-link-active">Home</li>
             <li class="hover:text-link-active">Menu</li>
@@ -27,13 +27,13 @@
             </li>
             <li>
               <button
-                class="border border-black py-1 px-3 rounded-full text-sm">
+                class="border border-black py-1 px-3 rounded-full text-sm hover:bg-link-active hover:text-white hover:border-link-active">
                 Sign in
               </button>
             </li>
             <li>
               <button
-                class="border border-black py-1 px-3 rounded-full text-sm bg-black text-white">
+                class="border border-black py-1 px-3 rounded-full text-sm bg-black hover:bg-white hover:text-black text-white">
                 Join now
               </button>
             </li>
@@ -53,15 +53,8 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  max-width: 150%;
-  min-height: 120vh;
-  box-sizing: border-box;
-  overflow: hidden;
-}
-
 .navbar {
-  width: 100%;
+  width: 105%;
   height: 100px;
   display: flex;
   align-items: center;
