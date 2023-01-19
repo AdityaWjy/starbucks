@@ -19,7 +19,7 @@
             </div>
           </div>
           <div class="product-right">
-            <img src="../assets/1.jpg" alt="" />
+            <img src="/assets/1.jpg" alt="" />
           </div>
         </div>
         <!-- Product 1 end -->
@@ -27,7 +27,7 @@
         <!-- Product 2 start -->
         <div class="product flex my-10" style="background-color: #96b2e1">
           <div class="product-right">
-            <img src="../assets/2.png" alt="" />
+            <img src="/assets/2.png" alt="" />
           </div>
 
           <div class="product-left items-center justify-center text-center">
@@ -68,7 +68,7 @@
             </div>
           </div>
           <div class="product-right">
-            <img src="../assets/3.jpg" alt="" />
+            <img src="/assets/3.jpg" alt="" />
           </div>
         </div>
         <!-- Product 3 end -->
@@ -76,7 +76,7 @@
         <!-- Product 4 start -->
         <div class="product flex my-10" style="background-color: #3d7170">
           <div class="product-right">
-            <img src="../assets/4.png" alt="" />
+            <img src="/assets/4.png" alt="" />
           </div>
 
           <div class="product-left items-center justify-center text-center">

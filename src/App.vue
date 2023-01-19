@@ -1,8 +1,18 @@
 <template>
   <div id="app">
+    <NavbarComponents />
     <router-view />
   </div>
 </template>
+
+<script>
+import NavbarComponents from "@/components/NavbarComponents.vue"
+
+export default {
+  name: "HomeView",
+  components: { NavbarComponents },
+}
+</script>
 
 <style>
 @import url(//db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);

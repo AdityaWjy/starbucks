@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <NavbarComponents />
     <div class="container">
       <HomeComponents />
     </div>
@@ -10,7 +9,7 @@
 
 <script>
 import FooterComponents from "@/components/FooterComponents.vue"
-import HomeComponents from "@/components/HomeComponents.vue"
+import HomeComponents from "@/components/Home-page/HomeComponents.vue"
 import NavbarComponents from "@/components/NavbarComponents.vue"
 
 export default {
